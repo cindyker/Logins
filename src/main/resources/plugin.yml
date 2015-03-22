@@ -1,0 +1,20 @@
+name: Logins
+main: com.minecats.cindyk.Logins
+version: 1.0
+description: Lightweight Inventory/Initial Spawn control
+author: cindyk
+website: http://www.minecats.com
+depend: [Vault]
+
+commands:
+  SetLoginPoint:
+    description: Show a list of title commands
+    usage: /<command> - Show a list of commands
+    aliases: [slp]
+  ListLogins:
+    description: Show a list of current logins
+    aliases: [ll]
+  RemoveLoginPoint:
+    description: Remove a Login Point
+    aliases: [rlp]
+
