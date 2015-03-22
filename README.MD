@@ -10,12 +10,21 @@ This is to help prevent players all piling up in the same spot.
 
 ## Commands
   **SetLoginPoint:**
+
     description: Show a list of title commands
+
     usage: /<command> - Show a list of commands
+
     aliases: [slp]
+
   **ListLogins:**
+
     description: Show a list of current logins
+
     aliases: [ll]
+
   **RemoveLoginPoint:**
+
     description: Remove a Login Point
+
     aliases: [rlp]
