@@ -1,14 +1,14 @@
 name: Logins
 main: com.minecats.cindyk.Logins
-version: 1.0
-description: Lightweight Inventory/Initial Spawn control
+version: 2.0
+description: Lightweight Initial Spawn control
 author: cindyk
 website: http://www.minecats.com
 depend: [Vault]
 
 commands:
   SetLoginPoint:
-    description: Show a list of title commands
+    description: Set a Login Point
     usage: /<command> - Show a list of commands
     aliases: [slp]
   ListLogins:
@@ -17,4 +17,18 @@ commands:
   RemoveLoginPoint:
     description: Remove a Login Point
     aliases: [rlp]
+  SetYardPoint:
+    description: Set a Yard Point
+    usage: /<command> - Show a list of commands
+    aliases: [syp]
+  ListYardPoints:
+    description: Show a list of current yard points
+    aliases: [lyp]
+  RemoveYardPoint:
+    description: Remove a Yard Point
+    aliases: [ryp]
+  JailYard:
+    description: Teleport player to Jail Yard
+    aliases: [jy]
+
 

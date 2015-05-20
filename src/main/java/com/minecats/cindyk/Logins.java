@@ -36,6 +36,10 @@ public class Logins extends JavaPlugin {
         getCommand("SetLoginPoint").setExecutor(cl);
         getCommand("ListLogins").setExecutor(cl);
         getCommand("RemoveLoginPoint").setExecutor(cl);
+        getCommand("SetYardPoint").setExecutor(cl);
+        getCommand("RemoveYardPoint").setExecutor(cl);
+        getCommand("ListYardPoints").setExecutor(cl);
+        getCommand("JailYard").setExecutor(cl);
 
         //Load Config
         if(!loadConfig()){this.getPluginLoader().disablePlugin(this);}
